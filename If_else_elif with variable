@@ -1,0 +1,26 @@
+#!/bin/bash
+
+read -p "Enetr the gubbar dialogue:" gh
+
+read -p "enetr thakur dialogue:" th
+
+read -p "enter the admi" admi
+
+echo "$gh"
+echo "$th"
+echo "total admi: $admi"
+
+if [[ $th == "nahi" ]];
+then
+        echo "jai verru ki mkd"
+elif  [[  $admi -ge 2 ]];
+then
+        echo "gabber letsgo"
+
+else
+        echo "mkd gabber"
+
+fi
+
+echo "sholay khatam"
+
