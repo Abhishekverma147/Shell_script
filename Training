@@ -1,0 +1,16 @@
+#!/bin/bash
+
+<<note
+This scrip will install any packeage
+
+note
+
+echo "*************INSTALLING $1*****************"
+apt-get update
+apt-get install $1 -y
+
+systemctl start $1
+systemctl enable $1
+
+
+echo "*********INSTALLING $1***************"
