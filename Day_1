@@ -1,0 +1,26 @@
+#!/bin/bash
+
+<<note
+
+note
+
+echo "Script is fun with ABhi"
+
+
+variable1="Hello"
+variable2="Bash"
+
+
+greeting ="$variables1,$varisble2!"
+
+echo "$greeting welcome to the world of Linux scripts"
+
+
+echo "My current bash - $Bash"
+echo "Bash version - $Bash_version"
+echo "PID of Bash - $$"
+echo "my home dir - $home"
+echo "where am i currently? - $pwd"
+echo "hostname - $hostname"
+
+ls *.txt
